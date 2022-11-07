@@ -36,7 +36,7 @@ export const ElementSlideWebSite: FC<ElementSlideWebSiteProps> = ({
                         }
                 }} component="h3">{titleSlide1}</Typography>
         </Grid>
-        <Grid item md={12} sx={{mb:{md: 4, lg: 5}, display: {xs: 'flex', lg: 'flex'}, justifyContent: {lg: 'start'}, ml: {lg:9}}}> 
+        <Grid item md={12} sx={{mb:{xs: 3,md: 4, lg: 5}, display: {xs: 'flex', lg: 'flex'}, justifyContent: {lg: 'start'}, ml: {lg:9}}}> 
             <Typography sx={{fontSize: {lg: '1.1rem', xl: '1.2rem'}, textAlign: {lg: 'left'}}} component="p">{descriptionService1}</Typography>
         </Grid>
         <Grid item xs={12} sx={{display: {lg: 'flex'}, justifyContent: {lg: 'start'}, ml: {lg:9}}}>
